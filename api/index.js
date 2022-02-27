@@ -1,6 +1,4 @@
 
 export default function handler(request, response) {
-  response.status(200).json({
-    body: request.query
-  });
+  response.status(200).html(request.query);
 }
