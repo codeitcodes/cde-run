@@ -1,7 +1,12 @@
 { 
   "redirects": [
       {
-        "source": ":path*",
+        "source": "/",
+        "destination": "https://dev.codeit.codes/",
+        "permanent": true
+      },
+      {
+        "source": "/:path*",
         "destination": "https://dev.codeit.codes/api/link?url=:path*",
         "permanent": true
       }
