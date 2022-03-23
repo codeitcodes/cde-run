@@ -1,2 +1,12 @@
-
-
+{ 
+  "redirects": [
+      {
+        "source": "https://cde.run/*",
+        "destination": "https://codeit.codes/api/link?url=*"
+      },
+      {
+        "source": "https://dev.cde.run/*",
+        "destination": "https://dev.codeit.codes/api/link?url=*"
+      }
+   ]
+}
