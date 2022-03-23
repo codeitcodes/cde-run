@@ -7,12 +7,12 @@
       },
       {
         "source": "/:path*",
-        "destination": "https://dev.codeit.codes/api/link?url=:path*",
+        "destination": "https://codeit.codes/api/link?url=:path*",
         "permanent": true
       },
       {
         "source": "/:path*/",
-        "destination": "https://dev.codeit.codes/api/link?url=:path*",
+        "destination": "https://codeit.codes/api/link?url=:path*",
         "permanent": true
       }
    ]
