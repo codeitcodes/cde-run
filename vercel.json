@@ -4,11 +4,6 @@
         "source": "/:path*",
         "destination": "https://codeit.codes/api/link?url=*",
         "permanent": true
-      },
-      {
-        "source": "https://dev.cde.run/:path*",
-        "destination": "https://dev.codeit.codes/api/link?url=*",
-        "permanent": true
       }
    ]
 }
