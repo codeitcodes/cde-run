@@ -1,11 +1,11 @@
 { 
   "redirects": [
       {
-        "source": "https://cde.run/*",
+        "source": "https://cde.run/:path*",
         "destination": "https://codeit.codes/api/link?url=*"
       },
       {
-        "source": "https://dev.cde.run/*",
+        "source": "https://dev.cde.run/:path*",
         "destination": "https://dev.codeit.codes/api/link?url=*"
       }
    ]
