@@ -2,7 +2,7 @@
   "redirects": [
       {
         "source": "/",
-        "destination": "https://dev.codeit.codes/",
+        "destination": "https://codeit.codes/",
         "permanent": true
       },
       {
