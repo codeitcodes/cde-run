@@ -1,7 +1,7 @@
 { 
   "redirects": [
       {
-        "source": "https://cde.run/:path*",
+        "source": "/:path*",
         "destination": "https://codeit.codes/api/link?url=*"
       },
       {
