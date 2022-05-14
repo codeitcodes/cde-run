@@ -8,7 +8,6 @@
         "destination": "https://dev.codeit.codes/",
         "permanent": true
       },
-      
       {
         "source": "/:path((?!_/).*)",
         "destination": "https://dev.codeit.codes/api/link?url=:path*",
@@ -17,12 +16,6 @@
       {
         "source": "/:path((?!_/).*)/",
         "destination": "https://dev.codeit.codes/api/link?url=:path*",
-        "permanent": true
-      },
-      
-      {
-        "source": "/_/twitter",
-        "destination": "https://twitter.com/codeitcodes",
         "permanent": true
       }
    ]
