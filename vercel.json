@@ -4,10 +4,6 @@
   },
   "rewrites": [
     {
-      "source": "/_/run/",
-      "destination": "https://dev.codeit.codes/full"
-    },
-    {
       "source": "/_/run/:path*",
       "destination": "https://dev.codeit.codes/:path*"
     }
