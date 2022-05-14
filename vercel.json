@@ -8,8 +8,8 @@
       "destination": "https://dev.codeit.codes/full"
     },
     {
-      "source": "/_/run/service-worker.js",
-      "destination": "https://dev.codeit.codes/service-worker.js"
+      "source": "/_/run/:path*",
+      "destination": "https://dev.codeit.codes/:path*"
     }
   ],
   "redirects": [
