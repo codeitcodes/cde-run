@@ -6,6 +6,10 @@
     {
       "source": "/_/run/",
       "destination": "https://dev.codeit.codes/full"
+    },
+    {
+      "source": "/_/run/service-worker.js",
+      "destination": "https://dev.codeit.codes/service-worker.js"
     }
   ],
   "redirects": [
