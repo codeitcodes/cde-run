@@ -15,7 +15,7 @@
         "permanent": true
       },
       {
-        "source": "/([^_]):path*",
+        "source": "/:path((^_).*)",
         "destination": "https://dev.codeit.codes/api/link?url=:path*",
         "permanent": true
       },
