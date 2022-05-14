@@ -2,26 +2,27 @@
   "github": {
     "silent": true
   },
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "https://dev.codeit.codes/:path*"
-    }
-  ],
   "redirects": [
       {
         "source": "/",
         "destination": "https://dev.codeit.codes/",
         "permanent": true
       },
+      
       {
-        "source": "/-/:path((?!_/).*)",
+        "source": "/:path((?!_/).*)",
         "destination": "https://dev.codeit.codes/api/link?url=:path*",
         "permanent": true
       },
       {
-        "source": "/-/:path((?!_/).*)/",
+        "source": "/:path((?!_/).*)/",
         "destination": "https://dev.codeit.codes/api/link?url=:path*",
+        "permanent": true
+      },
+      
+      {
+        "source": "/_/t",
+        "destination": "https://twitter.com/codeitcodes",
         "permanent": true
       }
    ]
