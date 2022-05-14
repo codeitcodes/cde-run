@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/_/run/",
-      "destination": "https://dev.codeit.codes/"
+      "destination": "https://dev.codeit.codes/run/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/?d413f036-5664-4dae-8495-9dc9d411fe01/"
     }
   ],
   "redirects": [
