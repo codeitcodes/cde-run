@@ -21,7 +21,7 @@
       },
       
       {
-        "source": "/_/t",
+        "source": "/_/twt",
         "destination": "https://twitter.com/codeitcodes",
         "permanent": true
       }
